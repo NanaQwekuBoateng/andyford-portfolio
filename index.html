@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Andyford Osei Boateng — IT student and aspiring software developer.">
+  <title>Andyford Osei Boateng | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="wrap nav">
+      <a class="logo" href="#home">AOB<span>.</span></a>
+      <button class="menu" aria-expanded="false" aria-label="Toggle menu">☰</button>
+      <div class="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="home">
+      <div>
+        <p class="eyebrow">FINAL-YEAR IT STUDENT · GHANA</p>
+        <h1>Building useful digital experiences with <em>code and curiosity.</em></h1>
+        <p class="lead">I'm Andyford Osei Boateng, an aspiring software developer interested in backend development, web applications and secure software engineering.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">Explore my work ↓</a>
+          <a class="btn" href="mailto:boateng.andyford@gmail.com">Email me ↗</a>
+        </div>
+        <p class="location">⌖ Kumasi, Ghana · Expected graduation: May 2027</p>
+      </div>
+      <aside class="profile">
+        <div class="avatar">
+          <img
+            class="profile-photo"
+            src="images/profile.jpg"
+            alt="Portrait of Andyford Osei Boateng"
+            onerror="this.style.display='none'"
+          >
+          <span class="avatar-text">AOB</span>
+        </div>
+        <p class="eyebrow">DEVELOPER PROFILE</p>
+        <h2>Andyford Osei Boateng</h2>
+        <p class="muted">BSc Information Technology<br>Garden City University</p>
+        <hr>
+        <p>
+          <small>Current focus</small><br>
+          <b>Python · Django · Web Development</b>
+        </p>
+        <p>
+          <small>Open to</small><br>
+          <b>Remote internships & junior roles</b>
+        </p>
+      </aside>
+    </section>
+
+    <section class="light" id="about">
+      <div class="wrap two">
+        <div>
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2>A practical learner who likes solving real problems.</h2>
+        </div>
+        <div>
+          <p>I'm a final-year BSc Information Technology student at Garden City University in Ghana. I enjoy turning ideas into working applications and learning how interfaces, databases, access control and testing fit together.</p>
+          <p>My main academic project is a multi-departmental digital student clearance portal intended to improve a paper-based university process. It has strengthened my interest in Django development, backend systems and application security.</p>
+          <p>I also founded Suave Solutions Ghana, which has helped me build practical skills in communication, responsibility and managing work alongside university.</p>
+          <a class="textlink" href="https://www.linkedin.com/in/andyford-osei-boateng-4840a91bb/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section" id="skills">
+      <p class="eyebrow">02 / TOOLKIT</p>
+      <h2>Technologies I'm working with</h2>
+      <p class="muted">A growing toolkit built through coursework and hands-on projects.</p>
+      <div class="grid skills">
+        <article>
+          <b class="symbol">Py</b>
+          <h3>Python & Django</h3>
+          <p>Backend logic, views, models and web application development.</p>
+        </article>
+        <article>
+          <b class="symbol">JS</b>
+          <h3>Web fundamentals</h3>
+          <p>HTML, CSS and JavaScript for responsive interfaces.</p>
+        </article>
+        <article>
+          <b class="symbol">DB</b>
+          <h3>Databases</h3>
+          <p>PostgreSQL, MySQL, SQL Server and relational data concepts.</p>
+        </article>
+        <article>
+          <b class="symbol">C+</b>
+          <h3>Programming</h3>
+          <p>Java, C++, VB.NET and Python through study and projects.</p>
+        </article>
+        <article>
+          <b class="symbol">SEC</b>
+          <h3>Security foundations</h3>
+          <p>RBAC, server-side authorization and audit logging in a project context.</p>
+        </article>
+        <article>
+          <b class="symbol">↗</b>
+          <h3>Problem solving</h3>
+          <p>Learning through debugging, testing, documentation and iteration.</p>
+        </article>
+      </div>
+      <p class="note">Skill levels grow with practice. Project descriptions distinguish current work from future plans.</p>
+    </section>
+
+    <section class="light" id="projects">
+      <div class="wrap section">
+        <p class="eyebrow">03 / SELECTED WORK</p>
+        <h2>Projects with a purpose.</h2>
+        <p class="muted">Selected work from my learning and development journey.</p>
+        <div class="grid projects">
+          <article class="project">
+            <div class="visual portal-visual">
+              <div class="screenshots">
+                <figure class="shot shot-1">
+                  <img
+                    src="images/clearance-login.png"
+                    alt="Garden City University Clearance Portal — login screen with Ama walkthrough guide"
+                    onerror="this.parentElement.classList.add('shot-fallback')"
+                  >
+                  <figcaption>Login & guided walkthrough</figcaption>
+                </figure>
+                <figure class="shot shot-2">
+                  <img
+                    src="images/clearance-profile.png"
+                    alt="Student Clearance Profile with clearance progression and PDF slip download"
+                    onerror="this.parentElement.classList.add('shot-fallback')"
+                  >
+                  <figcaption>Student profile & clearance progression</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="content">
+              <p class="kicker">PROJECT 01 · IN DEVELOPMENT</p>
+              <h3>Multi-Departmental Digital Student Clearance Portal</h3>
+              <p>A web-based system being developed to coordinate university clearance across departments and reduce reliance on paper-based workflows.</p>
+              <ul>
+                <li>Role-Based Access Control using Django Groups.</li>
+                <li>Server-side authorization and departmental data separation.</li>
+                <li>Audit logging and clearance-status tracking.</li>
+              </ul>
+              <div class="tags">
+                <span>Python</span>
+                <span>Django</span>
+                <span>PostgreSQL</span>
+                <span>JavaScript</span>
+              </div>
+              <p class="note">Private repository — code available on request.</p>
+              <p class="note">Currently in development/testing. No live demo; deployment is pending school/supervisor approval.</p>
+            </div>
+          </article>
+          <article class="project">
+            <div class="visual visual2">
+              <div class="cubes">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+            </div>
+            <div class="content">
+              <p class="kicker">PROJECT 02 · ACADEMIC / PRACTICE</p>
+              <h3>Nixmasoft Inventory Management System</h3>
+              <p>A Java-based inventory and stock-tracking application designed to help monitor supply levels and improve record accuracy for a small-business environment.</p>
+              <ul>
+                <li>Built with Java for desktop use in a small-business context.</li>
+                <li>Focused on stock tracking and improving record accuracy.</li>
+                <li>Strengthened my understanding of data management and application structure.</li>
+              </ul>
+              <div class="tags">
+                <span>Java</span>
+                <span>Inventory</span>
+                <span>Data management</span>
+              </div>
+              <p class="note">More screenshots and implementation details will be added as documentation improves.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section" id="learning">
+      <p class="eyebrow">04 / CONTINUOUS LEARNING</p>
+      <div class="two learn">
+        <div>
+          <h2>Learning by building, testing and asking why.</h2>
+          <p class="muted">I'm strengthening my software development and cybersecurity fundamentals through coursework, certifications and practical projects.</p>
+        </div>
+        <div class="certs">
+          <p>
+            <b>✓ Introduction to Cybersecurity</b>
+            <small>Cisco Networking Academy · 2024</small>
+          </p>
+          <p>
+            <b>✓ Computer Hardware Basics</b>
+            <small>Cisco Networking Academy · 2025</small>
+          </p>
+          <p>
+            <b>✓ Cybersecurity</b>
+            <small>ADB Institute · 2026</small>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <p class="eyebrow">05 / CONTACT</p>
+        <h2>Have an opportunity or an idea?</h2>
+        <p>I'm open to conversations about remote internships, junior developer opportunities, collaboration and learning from experienced teams.</p>
+        <div class="actions center">
+          <a class="btn primary" href="mailto:boateng.andyford@gmail.com">Let's talk ↗</a>
+          <a
+            class="btn"
+            href="https://wa.me/233245997210"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Chat on WhatsApp +233 24 599 7210"
+          >WhatsApp ↗</a>
+          <a class="btn" href="https://github.com/NanaQwekuBoateng" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a class="btn" href="https://www.linkedin.com/in/andyford-osei-boateng-4840a91bb/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+        <p class="alt-whatsapp muted">
+          Alternative WhatsApp:
+          <a href="https://wa.me/233207182177" target="_blank" rel="noreferrer">+233 20 718 2177 ↗</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <a class="logo" href="#home">AOB<span>.</span></a>
+      <p>Designed and built with care by Andyford Osei Boateng.</p>
+      <p>© <span id="year">2026</span> · Keep learning.</p>
+    </div>
+  </footer>
+</body>
+</html>
